@@ -1,0 +1,32 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>
+<footer>
+  <div class="container fixed-bottom">
+    <div class="row">
+      <div class="col text-center">
+        <p>&copy; 2024 Hendry Agus S</p>
+      </div>
+    </div>
+  </div>
+</footer>
